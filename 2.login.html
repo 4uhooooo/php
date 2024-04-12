@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>登入範例</title>
+        <style>
+            body{
+                text-align: center;
+            }
+            .login{
+                background-color:antiquewhite;  
+                padding: 10px;
+            }
+           
+        </style>
+       <!-- text-align = 文字對其  , center=置中-->
+       <!-- background-color = 背景顏色-->
+       <!--padding = 邊界間距-->
+    </head>
+    <body>
+        <div class="login">
+        <form method=post action="6.login.php"> 
+              <!--method = 參數名稱
+                 post =適合密碼類的參數傳遞
+                action = 呼叫程式-->
+            帳號：<input type=text name="id"><br />
+            密碼：<input type=password name="pwd"><p></p>
+            <input type=submit value="登入"> <input type=reset value="清除">
+            
+        </form>
+    </div>
+    </body>
+</html>
